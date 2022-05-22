@@ -60,19 +60,48 @@ y = 5;
 
 //Functions :
 
-function plus(x){
-    return x + 1
-}
+// function plus(x){
+//     return x + 1
+// }
 
-function square(x, y){
-    return x * y
-}
+// function square(x, y){
+//     return x * y
+// }
+
+// function remainder(x, y){
+//     return x % y
+// }
+
+// console.log(minus(y,x))
+
+// JavaScript statements include conditionals and loops using the syntax:
 
 function remainder(x, y){
-    return x % y
+    if(x%y==1){
+        return console.log('ok')
+    }else{
+        return console.log('----') 
+    }
 }
 
+remainder(y,x)
 
+function factorial(x){
+    let sum = 1
+    for (i = 1; i <= x; i++){
+        sum *= i
+    }
+    return console.log(sum)
+}
+factorial(y)
 
-console.log(minus(y,x))
+function sum(x){
+    let sum = 1
+    while(x>1){
+        sum *= x
+        x--
+    }
+    return console.log(sum)
+}
 
+sum(y)
