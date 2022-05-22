@@ -8,10 +8,10 @@
 
 //Object:
 
-let student = {
-  name: "Humoyun", // key : name , value : Humoyun
-  age: 18, // key : age , value : 18
-};
+// let student = {
+//   name: "Humoyun", // key : name , value : Humoyun
+//   age: 18, // key : age , value : 18
+// };
 
 //console.log(student.age)
 
@@ -117,3 +117,15 @@ function sum(array){
 }
 console.log(sum(array))
 
+student = [ 
+    {name: "Humoyun", age: 19}
+]
+
+const a = student.filter(student =>{
+    if(student.name === 'Humoyun'){
+        student.age++
+        return console.log(student.age)
+    }else{
+        return console.log('some error')
+    }
+})
