@@ -31,7 +31,7 @@
     flex-direction: column;
     height: 500px;
     box-shadow: 0px 0px 60px rgb(235, 202, 202);
-    border-radius: 15px;
+    border-radius: 35px;
 }
 
 .courses{
@@ -169,3 +169,40 @@
 .information_in-4 p{
     width: 80%;
 } 
+
+
+.statistics_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.statistics_information{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.statistics_information_in{
+    box-shadow: 0px 0px 60px rgb(235, 202, 202);
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 150%
+}
+
+.statistics_information_in h2{
+ color: #39c8d2;
+}
+
+.statistics_information_in p{
+    margin-top: -2%;
+}
+
+.statistics_in button{
+    margin-top: 10%;
+}
