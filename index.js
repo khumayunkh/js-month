@@ -44,17 +44,35 @@ array[4] = 6; // add a new element
 x = 2;
 y = 5;
 
-x += y; // equel to x = x + y
-x > y; // false
-x >= y; // false
-x <= y; // true
-x < y; // true
-!(x===y) // true
-false = x===y // true
-x++ // x = x + 1
-x-- // x = x - 1
-x *= y // equel to x = x * y
-x /= y // equel to x = x / y
-(x === 2) && (y === 4) // x = 2 and (&&) y = 4 (false) 
-(x === 2) || (y === 3) // x = 2 or (||) y = 4 (true)
+// x += y; // equel to x = x + y
+// x > y; // false
+// x >= y; // false
+// x <= y; // true
+// x < y; // true
+// !(x===y) // true
+// false = x===y // true
+// x++ // x = x + 1
+// x-- // x = x - 1
+// x *= y // equel to x = x * y
+// x /= y // equel to x = x / y
+// (x === 2) && (y === 4) // x = 2 and (&&) y = 4 (false) 
+// (x === 2) || (y === 3) // x = 2 or (||) y = 4 (true)
+
+//Functions :
+
+function plus(x){
+    return x + 1
+}
+
+function square(x, y){
+    return x * y
+}
+
+function remainder(x, y){
+    return x % y
+}
+
+
+
+console.log(minus(y,x))
 
