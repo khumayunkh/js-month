@@ -95,7 +95,7 @@ function factorial(x){
 }
 factorial(y)
 
-function sum(x){
+function factorial_2(x){
     let sum = 1
     while(x>1){
         sum *= x
@@ -103,5 +103,17 @@ function sum(x){
     }
     return console.log(sum)
 }
+factorial_2(y)
 
-sum(y)
+function sum(array){
+    let sum = 0 
+    for(let x of array){
+        if(x === 2){
+            continue
+        }
+        sum += x
+    }
+    return sum
+}
+console.log(sum(array))
+
