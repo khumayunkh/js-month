@@ -105,20 +105,21 @@ function factorial_2(x){
 }
 factorial_2(y)
 
-function sum(array){
-    let sum = 0 
-    for(let x of array){
-        if(x === 2){
-            continue
-        }
-        sum += x
-    }
-    return sum
-}
-console.log(sum(array))
+// function sum(array){
+//     let sum = 0 
+//     for(let x of array){
+//         if(x === 2){
+//             continue
+//         }
+//         sum += x
+//     }
+//     return sum
+// }
+// console.log(sum(array))
 
 student = [ 
-    {name: "Humoyun", age: 19}
+    {name: "Humoyun", age: 19},
+    {name: "Kamron", age: 22}
 ]
 
 const a = student.filter(student =>{
@@ -129,3 +130,11 @@ const a = student.filter(student =>{
         return console.log('some error')
     }
 })
+
+const sum = student.forEach(a => {
+    b = 0
+    for(let x in a.age){
+        b = b + x
+    }
+    return console.log(b)
+});
